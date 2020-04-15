@@ -132,8 +132,6 @@ export default function Notes() {
             <FormGroup>
               <ControlLabel>Attachment</ControlLabel>
               <FormControl.Static>
-                <img src={note.attachmentURL} />
-                <br />
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
